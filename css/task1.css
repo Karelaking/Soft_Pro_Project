@@ -1,0 +1,105 @@
+#outer{
+  width: 1000px;
+  height: 1000px;
+}
+
+#top{
+  width: 1000px;
+  height: 500px;
+  /* background: red; */
+}
+
+#top-left{
+  width: 500px;
+  height: 500px;
+  background-color: purple;
+  float: left;
+}
+
+#top-right{
+  width: 500px;
+  height: 500px;
+  background-color: skyblue;
+  float: right;
+}
+
+#bottom{
+  width: 1000px;
+  height: 500px;
+  /* background: blue; */
+}
+
+#bottom-left{
+  width: 500px;
+  height: 500px;
+  background-color: skyblue;
+  float: left;
+}
+
+#bottom-right{
+  width: 500px;
+  height: 500px;
+  /* background-color: purple; */
+  float: right;
+}
+
+#bottom-right-top{
+  width: 500px;
+  height: 250px;
+  background-color: purple;
+}
+
+#bottom-right-bottom{
+  width: 500px;
+  height: 250px;
+  background-color: skyblue;
+}
+
+#bottom-right-top-left{
+  width: 250px;
+  height: 250px;
+  background-color: orange;
+  float: left;
+}
+
+#bottom-right-top-right{
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  float: right;
+}
+
+#bottom-right-bottom-left{
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  float: left;
+}
+
+#bottom-right-bottom-right-top{
+  width: 250px;
+  height: 125px;
+  background-color: green;
+  float: right;
+}
+
+#bottom-right-bottom-right-bottom{
+  width: 250px;
+  height: 125px;
+  background-color: red;
+  float: right;
+}
+
+.box-1{
+  width: 50px;
+  height: 125px;
+  background-color: purple;
+  float: left;
+}
+
+.box-2{
+  width: 50px;
+  height: 125px;
+  background-color: violet;
+  float: left;
+}
