@@ -1,0 +1,68 @@
+#outer {
+  width: 1000px;
+  height: 1000px;
+}
+
+.mini-row {
+  width: 1000px;
+  height: 200px;
+}
+
+.mini-row-mini-box {
+  width: 200px;
+  height: 200px;
+  background: rgb(4, 85, 97);
+  float: left;
+}
+
+.mini-row-max-box-1 {
+  width: 300px;
+  height: 200px;
+  background: rgb(27, 124, 162);
+  float: left;
+}
+
+.mini-row-max-box-2 {
+  width: 300px;
+  height: 200px;
+  background: rgb(71, 203, 255);
+  float: left;
+}
+
+.max-row-1 {
+  width: 1000px;
+  height: 300px;
+}
+
+.max-row-1-mini-box {
+  width: 200px;
+  height: 300px;
+  background: rgb(71, 203, 255);
+  float: left;
+}
+
+.max-row-1-max-box {
+  width: 600px;
+  height: 300px;
+  background: grey;
+  float: left;
+}
+
+.max-row-2 {
+  width: 1000px;
+  height: 300px;
+}
+
+.max-row-2-mini-box {
+  width: 200px;
+  height: 300px;
+  background: rgb(27, 124, 162);
+  float: left;
+}
+
+.max-row-2-max-box {
+  width: 600px;
+  height: 300px;
+  background: grey;
+  float: left;
+}
