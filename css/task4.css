@@ -1,0 +1,187 @@
+#outer{
+  width: 1000px;
+  height: 1000px;
+}
+
+.inner-top{
+  width: 1000px;
+  height: 500px;
+}
+
+.inner-top-left{
+  width: 500px;
+  height: 500px;
+  background: greenyellow;
+  float: left;
+}
+
+.inner-top-right{
+  width: 500px;
+  height: 500px;
+  background: green;
+  float: right;
+}
+
+.inner-bottom{
+  width: 1000px;
+  height: 500px;
+}
+
+.inner-bottom-left{
+  width: 500px;
+  height: 500px;
+  background: yellow;
+  float: left;
+}
+
+.inner-bottom-right{
+  width: 500px;
+  height: 500px;
+  background: greenyellow;
+  float: right;
+}
+
+.top-box{
+  width: 500px;
+  height: 250px;
+}
+
+.bottom-box{
+  width: 500px;
+  height: 250px;
+}
+
+.top-box-left{
+  width: 250px;
+  height: 250px;
+  background: rgb(0, 46, 0);
+  float: left;
+}
+
+.top-box-right{
+  width: 250px;
+  height: 250px;
+  background: green;
+  float: right;
+}
+
+.bottom-box-left{
+  width: 250px;
+  height: 250px;
+  background: red;
+  float: left;
+}
+
+.bottom-box-right{
+  width: 250px;
+  height: 250px;
+  /* background: blue; */
+  float: right;
+}
+
+#strip-1{
+  width: 250px;
+  height: 62.5px;
+  background: rgb(165, 97, 42);
+}
+
+#strip-2{
+  width: 250px;
+  height: 62.5px;
+  background: rgb(222, 131, 57);
+}
+
+#strip-3{
+  width: 250px;
+  height: 62.5px;
+  background: rgb(255, 182, 123);
+}
+
+.box-1{
+  width: 83px;
+  height: 62.5px;
+  background: rgb(165, 97, 42);
+  float: left;
+}
+
+.box-2{
+  width: 83.5px;
+  height: 62.5px;
+  background: rgb(222, 131, 57);
+  float: left;
+}
+
+#inner-top-box{
+  width: 250px;
+  height: 125px;
+}
+
+#inner-top-box-left{
+  width: 125px;
+  height: 125px;
+  background: rgb(0, 46, 0);
+  float: left;
+}
+
+#inner-top-box-right{
+  width: 125px;
+  height: 125px;
+  background: rgb(60, 212, 60);
+  float: right;
+}
+
+#inner-bottom-box{
+  width: 250px;
+  height: 125px;
+}
+
+#inner-bottom-box-left{
+  width: 125px;
+  height: 125px;
+  background: rgb(24, 172, 24);
+  float: left;
+}
+
+#inner-bottom-box-right{
+  width: 125px;
+  height: 125px;
+  /* background: rgb(0, 46, 0); */
+  float: right;
+}
+
+#top{
+  width: 125px;
+  height: 62.5px;
+}
+
+.in-box-1{
+  width: 62.5px;
+  height: 62.5px;
+  background: yellow;
+  float: left;
+}
+
+.in-box-2{
+  width: 62.5px;
+  height: 62.5px;
+  background: rgb(60, 39, 39);
+  float: right;
+}
+
+.in-box-3{
+  width: 62.5px;
+  height: 62.5px;
+  background: yellow;
+  float: right;
+}
+
+.in-box-4{
+  width: 62.5px;
+  height: 62.5px;
+  background: rgb(60, 39, 39);
+  float: left;
+}
+#bottom{
+  width: 125px;
+  height: 62.5px;
+}
