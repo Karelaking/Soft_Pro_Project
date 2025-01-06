@@ -1,0 +1,117 @@
+#outer{
+  width: 1000px;
+  height: 1000px;
+}
+
+#row-1{
+  width: 1000px;
+  height: 200px;
+}
+
+#row-1-box-1{
+  width: 200px;
+  height: 200px;
+  float: left;
+  background: red;
+}
+
+#row-1-box-2{
+  width: 600px;
+  height: 200px;
+  float: left;
+  background:rgb(255, 151, 151);
+}
+
+#row-2{
+  width: 1000px;
+  height: 250px;
+}
+
+#row-2-left{
+  width: 500px;
+  height: 250px;
+  float: left;
+  background: rgb(255, 133, 154);
+}
+
+#row-2-right{
+  width: 500px;
+  height: 250px;
+  float: left;
+  /* background: rgb(255, 133, 154); */
+}
+
+#row-2-right-top{
+  width: 500px;
+  height: 125px;
+  background: blue;
+}
+
+#row-2-right-bottom{
+  width: 500px;
+  height: 125px;
+  /* background: green; */
+}
+
+#row-2-right-bottom-left{
+  width: 250px;
+  height: 125px;
+  background: rgb(132, 30, 132);
+  float: left;
+}
+
+#row-2-right-bottom-right{
+  width: 250px;
+  height: 125px;
+  background: skyblue;
+  float: left;
+}
+
+#row-3{
+  width: 1000px;
+  height: 250px;
+}
+
+#row-3-left{
+  width: 500px;
+  height: 250px;
+  float: left;
+  background: skyblue;
+}
+
+#row-3-right{
+  width: 500px;
+  height: 250px;
+  float: left;
+  background: rgb(255, 133, 154);
+}
+
+#row-4{
+  width: 1000px;
+  height: 300px;
+}
+
+#row-4-left{
+  width: 500px;
+  height: 300px;
+  float: left;
+}
+
+#top{
+  width: 500px;
+  height: 150px;
+  background: rgb(3, 105, 149);
+}
+
+#bottom{
+  width: 500px;
+  height: 150px;
+  background: rgb(3, 47, 76);
+}
+
+#row-4-right{
+  width: 500px;
+  height: 300px;
+  float: right;
+  background: rgb(128, 107, 128);
+}
