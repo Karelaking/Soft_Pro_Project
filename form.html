@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <form action="" id="form">
+        <h1>Form</h1>
+      <div id="name-input">
+        <div class="container">
+          <label for="fname" class="label">First Name</label>
+          <input type="text" id="fname" name="fname" class="input" required />
+        </div>
+        <div class="container">
+          <label for="mname" class="label">Middel Name</label>
+          <input type="text" id="mname" name="mname" class="input" required />
+        </div>
+        <div class="container">
+          <label for="lname" class="label">Last Name</label>
+          <input type="text" id="lname" name="lname" class="input" required />
+        </div>
+      </div>
+      <div id="contact">
+        <div class="container">
+          <label for="email" class="label">Email</label>
+          <input type="email" id="email" name="email" class="input" required />
+        </div>
+        <div class="container">
+          <label for="phone" class="label">Phone</label>
+          <input type="tel" id="phone" name="phone" class="input" required />
+        </div>
+        <div class="container">
+          <label for="address" class="label">Address</label>
+          <input type="tel" id="address" name="address" class="input" required />
+        </div>
+      </div>
+      <div id="info">
+        <div class="container">
+          <label for="dob" class="label">Date of Birth</label>
+          <input type="date" id="dob" name="dob" class="input" required />
+        </div>
+        <div class="container">
+          <label for="gender" class="label">Gender</label>
+          <select id="gender" name="gender" class="select" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+      </div>
+      </div>
+      <div id="physical">
+        <div class="container">
+          <label for="pwd" class="label">Person with disability</label>
+          <div class="radio">
+            <input type="radio" id="pwd" name="pwd" class="input" required /> No
+            <input type="radio" id="pwd" name="pwd" class="input" required /> Yes
+          </div>
+        </div>
+        <div class="container">
+          <label for="blood" class="label">Blood Type</label>
+          <input type="text" id="blood" name="blood" class="input" required />
+        </div>
+      </div>
+      <div id="submit">
+        <button type="submit" class="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
